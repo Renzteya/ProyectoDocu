@@ -101,6 +101,17 @@ const sidebars = {
             'application/cache',
           ],
         },
+        {
+          type: 'category',
+          label: 'Security',
+          collapsed: true,
+          items: [
+            'security/overview',
+            'security/connection',
+            'security/certificate',
+            'security/subresources',
+          ],
+        },
       ],
     },
   ],
