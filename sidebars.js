@@ -25,7 +25,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Elements',
-          collapsed: false,
+          collapsed: true,
           items: [
             'elements/overview',
             'elements/html-tree',
@@ -33,6 +33,17 @@ const sidebars = {
             'elements/box-model',
             'elements/event-listeners',
           ], 
+        },
+        {
+          type: 'category',
+          label: 'Console',
+          collapsed: true,
+          items: [
+            'console/overview',
+            'console/logging',
+            'console/shortcuts',
+            'console/tips',
+          ],
         },
       ],
     },
