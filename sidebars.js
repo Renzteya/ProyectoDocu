@@ -56,6 +56,17 @@ const sidebars = {
             'sources/editing',
           ],
         },
+        {
+          type: 'category',
+          label: 'Network',
+          collapsed: true,
+          items: [
+            'network/overview',
+            'network/request-details',
+            'network/filters',
+            'network/throttling',
+          ],
+        },
       ],
     },
   ],
