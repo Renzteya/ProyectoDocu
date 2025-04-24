@@ -90,6 +90,17 @@ const sidebars = {
             'memory/garbage-collection',
           ],
         },
+        {
+          type: 'category',
+          label: 'Application',
+          collapsed: true,
+          items: [
+            'application/overview',
+            'application/storage',
+            'application/service-workers',
+            'application/cache',
+          ],
+        },
       ],
     },
   ],
