@@ -45,6 +45,17 @@ const sidebars = {
             'console/tips',
           ],
         },
+        {
+          type: 'category',
+          label: 'Sources',
+          collapsed: true,
+          items: [
+            'sources/overview',
+            'sources/breakpoints',
+            'sources/callstack',
+            'sources/editing',
+          ],
+        },
       ],
     },
   ],

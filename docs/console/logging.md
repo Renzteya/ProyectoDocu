@@ -22,3 +22,7 @@ La consola muestra diferentes tipos de mensajes, cada uno con su nivel de import
 console.log("Valor:", variable);
 console.error("Error inesperado", err);
 console.warn("Esto puede causar problemas");
+
+```
+
+> Usa logs con niveles adecuados para mantener la consola limpia y fácil de leer.

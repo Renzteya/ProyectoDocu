@@ -23,3 +23,12 @@ console.group("Detalles");
 console.log("Primera línea");
 console.log("Segunda línea");
 console.groupEnd();
+```
+
+## 4. ⏱️ Medición de tiempo
+
+```js
+console.time("Loop");
+for (let i = 0; i < 10000; i++) {}
+console.timeEnd("Loop");
+```
