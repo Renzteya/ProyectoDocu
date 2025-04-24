@@ -1,47 +1,62 @@
 ---
+id: intro
+title: Introducción a DevTools
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 🛠️ ¿Qué son las DevTools de Google Chrome?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Las **Chrome DevTools** (Herramientas para desarrolladores) son un conjunto de utilidades integradas directamente en el navegador Google Chrome que permiten:
 
-## Getting Started
+- 📦 Inspeccionar y editar el código HTML y CSS en tiempo real
+- 🧠 Depurar código JavaScript
+- 🌐 Analizar el tráfico de red y rendimiento
+- 🧪 Realizar auditorías de accesibilidad, SEO y más
+- 🔐 Revisar aspectos de seguridad de un sitio web
 
-Get started by **creating a new site**.
+---
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 🚀 ¿Por qué deberías usar DevTools?
 
-### What you'll need
+Tanto si eres principiante como desarrollador experto, DevTools es una herramienta imprescindible para:
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+✅ Diagnosticar errores en tu sitio  
+✅ Probar cambios visuales sin editar tu código fuente  
+✅ Optimizar la velocidad de carga  
+✅ Revisar el comportamiento de tu aplicación en diferentes dispositivos  
+✅ Auditar aplicaciones para producción
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## 🎯 Cómo acceder a las DevTools
 
-The classic template will automatically be added to your project after you run the command:
+Tienes varias formas de abrir las DevTools:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- Pulsa `F12` o `Ctrl + Shift + I` (Windows/Linux)
+- Pulsa `Cmd + Option + I` (macOS)
+- Haz **clic derecho** en cualquier parte de la página y selecciona **"Inspeccionar"**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+> 💡 Consejo: También puedes fijar DevTools en la parte inferior o lateral del navegador según tu preferencia.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
+## 🧭 ¿Qué aprenderás en esta sección?
 
-Run the development server:
+En esta documentación exploraremos cada pestaña del DevTools:
 
-```bash
-cd my-website
-npm run start
-```
+| Pestaña           | Función principal                                        |
+|-------------------|----------------------------------------------------------|
+| `Elements`        | Visualizar y modificar HTML/CSS                         |
+| `Console`         | Mostrar errores y ejecutar JavaScript en tiempo real    |
+| `Sources`         | Depurar código, revisar archivos                        |
+| `Network`         | Ver solicitudes HTTP, tiempos de carga                  |
+| `Performance`     | Analizar velocidad y rendimiento del sitio              |
+| `Memory`          | Revisar uso de memoria y detectar fugas (leaks)         |
+| `Application`     | Gestionar almacenamiento y service workers              |
+| `Security`        | Ver certificados y detalles de seguridad                |
+| `Lighthouse`      | Generar reportes automáticos de rendimiento y calidad   |
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+👉 ¡Continúa con la siguiente página para empezar a explorar cada herramienta de forma detallada!
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
