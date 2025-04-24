@@ -79,6 +79,17 @@ const sidebars = {
             'performance/timings',
           ],
         },
+        {
+          type: 'category',
+          label: 'Memory',
+          collapsed: true,
+          items: [
+            'memory/overview',
+            'memory/heap-snapshot',
+            'memory/allocation-instrumentation',
+            'memory/garbage-collection',
+          ],
+        },
       ],
     },
   ],
