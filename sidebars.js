@@ -24,7 +24,7 @@ const sidebars = {
         'intro',
         {
           type: 'category',
-          label: 'Elements',
+          label: '🧱 Elements',
           collapsed: true,
           items: [
             'elements/overview',
@@ -36,7 +36,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Console',
+          label: '🖥️ Console',
           collapsed: true,
           items: [
             'console/overview',
@@ -47,7 +47,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Sources',
+          label: '📂 Sources',
           collapsed: true,
           items: [
             'sources/overview',
@@ -58,7 +58,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Network',
+          label: '🌐 Network',
           collapsed: true,
           items: [
             'network/overview',
@@ -69,7 +69,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Performance',
+          label: '🚀 Performance',
           collapsed: true,
           items: [
             'performance/overview',
@@ -81,7 +81,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Memory',
+          label: '🧠 Memory',
           collapsed: true,
           items: [
             'memory/overview',
@@ -92,7 +92,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Application',
+          label: '🧑‍💻 Application',
           collapsed: true,
           items: [
             'application/overview',
@@ -103,7 +103,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Security',
+          label: '🔐 Security',
           collapsed: true,
           items: [
             'security/overview',
@@ -114,7 +114,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Lighthouse', 
+          label: '🌟 Lighthouse', 
           collapsed: true,
           items: [
             'lighthouse/overview',
