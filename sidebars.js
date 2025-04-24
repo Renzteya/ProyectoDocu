@@ -67,6 +67,18 @@ const sidebars = {
             'network/throttling',
           ],
         },
+        {
+          type: 'category',
+          label: 'Performance',
+          collapsed: true,
+          items: [
+            'performance/overview',
+            'performance/recording',
+            'performance/frames',
+            'performance/main-thread',
+            'performance/timings',
+          ],
+        },
       ],
     },
   ],
